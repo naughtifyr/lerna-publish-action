@@ -1,0 +1,31 @@
+{
+  "name": "@naughtifyr/lerna-publish-action",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "homepage": "https://github.com/naughtifyr/lerna-publish-action",
+  "bugs": {
+    "url": "https://github.com/naughtifyr/lerna-publish-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naughtifyr/lerna-publish-action.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "bump": "lerna version --conventional-commits --force-publish",
+    "clean": "npm run clean --workspaces --if-present",
+    "tsc": "npm run tsc --workspaces --if-present",
+    "tsc:pub": "npm run tsc:pub --workspaces --if-present"
+  },
+  "author": "naughtifyr <naughtifyr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

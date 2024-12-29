@@ -1,0 +1,36 @@
+{
+  "name": "@naughtifyr/mono-one",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/naughtifyr/lerna-publish-action/packages/one",
+  "bugs": {
+    "url": "https://github.com/naughtifyr/lerna-publish-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naughtifyr/lerna-publish-action.git",
+    "directory": "packages/one"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "clean": "tsc -b --clean",
+    "tsc": "npm run clean && tsc -p ./tsconfig.json",
+    "tsc:pub": "npm run clean && tsc -p ./tsconfig.pub.json",
+    "prepublishOnly": "npm run tsc:pub"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "naughtifyr <naughtifyr@gmail.com>",
+  "license": "MIT"
+}

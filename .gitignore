@@ -1,0 +1,17 @@
+node_modules
+coverage
+*.log
+npm-debug.log
+logs
+*.swp
+.idea
+.DS_Store
+.tmp
+.vscode
+
+package-lock.json
+yarn.lock
+dist
+
+**/*.js
+**/*.d.ts
