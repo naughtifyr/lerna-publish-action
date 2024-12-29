@@ -16,6 +16,7 @@
   },
   "scripts": {
     "bump": "lerna version --conventional-commits --force-publish",
+    "beta": "lerna version prerelease --preid=beta --force-publish",
     "clean": "npm run clean --workspaces --if-present",
     "tsc": "npm run tsc --workspaces --if-present",
     "tsc:pub": "npm run tsc:pub --workspaces --if-present"
