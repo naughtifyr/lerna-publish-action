@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/naughtifyr/lerna-publish-action/compare/v0.0.4...v0.0.5) (2024-12-29)
+
+
+### Bug Fixes
+
+* token ([20b8423](https://github.com/naughtifyr/lerna-publish-action/commit/20b8423e3fa77a9412b2b1091d70063f282a5db2))
+
+
+
+
+
 ## [0.0.4](https://github.com/naughtifyr/lerna-publish-action/compare/v0.0.3...v0.0.4) (2024-12-29)
 
 
