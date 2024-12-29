@@ -31,7 +31,11 @@ jobs:
           generate_release_notes: true
       - name: Publish
         run: |
-          echo "//registry.npmjs.org/:_authToken=NODE_AUTH_TOKEN" > .npmrc
+          cat <<EOT >> .npmrc
+          //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
+          registry=https://registry.npmjs.org/
+          always-auth=true
+          EOT
           npx lerna publish from-git --yes
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
