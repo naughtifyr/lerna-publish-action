@@ -1,6 +1,6 @@
 {
   "name": "@naughtifyr/mono-three",
-  "version": "0.0.6-beta.0",
+  "version": "0.0.6-beta.1",
   "description": "",
   "files": [
     "dist"
@@ -26,7 +26,7 @@
     "prepublishOnly": "npm run tsc:pub"
   },
   "dependencies": {
-    "@naughtifyr/mono-two": "^0.0.6-beta.0"
+    "@naughtifyr/mono-two": "^0.0.6-beta.1"
   },
   "devDependencies": {
     "typescript": "^5.0.4"
