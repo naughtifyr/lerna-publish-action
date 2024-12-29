@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "",
   "files": [
-    "lib"
+    "dist"
   ],
   "main": "lib/index.js",
   "typings": "dist/index.d.ts",
