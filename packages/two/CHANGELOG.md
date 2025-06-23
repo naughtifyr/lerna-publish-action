@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/naughtifyr/lerna-publish-action/compare/v0.0.7-beta.0...v0.0.7) (2025-06-23)
+
+
+### Features
+
+* number ([fa511b0](https://github.com/naughtifyr/lerna-publish-action/commit/fa511b0b6bc3d7d601a0c4ecf457d42d7fdf5173))
+
+
+
+
+
 ## [0.0.6](https://github.com/naughtifyr/lerna-publish-action/compare/v0.0.6-beta.3...v0.0.6) (2024-12-29)
 
 **Note:** Version bump only for package @naughtifyr/mono-two
