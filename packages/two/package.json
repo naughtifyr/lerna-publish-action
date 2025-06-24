@@ -26,7 +26,8 @@
     "prepublishOnly": "npm run tsc:pub"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "@naughtifyr/mono-test": "^0.0.7"
   },
   "publishConfig": {
     "access": "public"

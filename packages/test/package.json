@@ -1,20 +1,21 @@
 {
-  "name": "@naughtifyr/mono-three",
+  "name": "@naughtifyr/mono-test",
   "version": "0.0.7",
+  "private": true,
   "description": "",
   "files": [
     "dist"
   ],
   "main": "lib/index.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://github.com/naughtifyr/lerna-publish-action/packages/three",
+  "homepage": "https://github.com/naughtifyr/lerna-publish-action/packages/test",
   "bugs": {
     "url": "https://github.com/naughtifyr/lerna-publish-action/issues"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:naughtifyr/lerna-publish-action.git",
-    "directory": "packages/three"
+    "directory": "packages/test"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -25,15 +26,9 @@
     "tsc:pub": "npm run clean && tsc -p ./tsconfig.pub.json",
     "prepublishOnly": "npm run tsc:pub"
   },
-  "dependencies": {
-    "@naughtifyr/mono-two": "^0.0.7"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.0.4",
-    "@naughtifyr/mono-test": "^0.0.7"
-  },
-  "publishConfig": {
-    "access": "public"
+    "typescript": "^5.0.4"
   },
   "author": "naughtifyr <naughtifyr@gmail.com>",
   "license": "MIT"
