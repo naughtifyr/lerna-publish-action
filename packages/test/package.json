@@ -1,6 +1,6 @@
 {
   "name": "@naughtifyr/mono-test",
-  "version": "0.0.7",
+  "version": "0.0.8-beta.0",
   "private": true,
   "description": "",
   "files": [
@@ -26,7 +26,6 @@
     "tsc:pub": "npm run clean && tsc -p ./tsconfig.pub.json",
     "prepublishOnly": "npm run tsc:pub"
   },
-  "dependencies": {},
   "devDependencies": {
     "typescript": "^5.0.4"
   },
